@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-Title: App Spring Security
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: org.test
+Build-Jdk: 1.7.0_91
+Built-By: dalton
+Created-By: Maven Integration for Eclipse
+Main-Class: demo.AppSpringSecurityApplication
+

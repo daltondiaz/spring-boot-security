@@ -1,0 +1,11 @@
+changeSet:
+  id: 1
+  author: dalton
+  changes:
+  - sql:
+      comment: Admin user
+      dbms: h2, oracle
+      endDelimiter: \nGO
+      splitStatements: true
+      sql: insert into user (id,user_name,email,password,role) values ('1','ADM','admin@adm.com','$2a$10$eAWHqN70p3v5LIK4ddWgYeDxfrR12OcTMelU.e1bynpaTzBXxQNhm','ADMIN')
+      stripComments: true
